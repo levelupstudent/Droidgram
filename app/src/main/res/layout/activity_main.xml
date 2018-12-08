@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jaiboogiee">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rodeo Drive"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="338dp"
+        android:src="@drawable/pic" />
+    <LinearLayout
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Likes: 264"
+        android:id="@+id/likes_text_view"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="49dp"
+        android:layout_height="36dp"
+        android:text="❤️" />
+
+</LinearLayout>
+
+    <Button
+        android:android:layout_width="wrap_content"
+        android:android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
